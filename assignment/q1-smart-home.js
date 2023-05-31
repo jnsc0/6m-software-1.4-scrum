@@ -7,22 +7,37 @@
 */
 
 // Task: Add code here
+class BaseSignal  {
+    constructor(){
+        if (new.target === BaseSignal) {
+            throw new Error("Direct instantiation is blocked");
+        }
+    }
+
+    send() {
+        console.log(`Sending ${this.constructor.name.toLowerCase().replace('signal','')} signal`)
+    }
+}
+
 
 class TvSignal extends BaseSignal {
     constructor(){
         // Add code here
+        super();
     }
 }
 
 class AirconSignal extends BaseSignal {
     constructor(){
         // Add code here
+        super();
     }
 }
 
 class DoorSignal extends BaseSignal {
     constructor(){
         // Add code here
+        super();
     }
 }
 

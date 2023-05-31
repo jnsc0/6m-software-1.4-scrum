@@ -13,6 +13,7 @@ We will spend the first hour learning about Agile and SCRUM yet keeping in mind 
 ### Self studies check-in
 
 Q1: Describe the Waterfall Model.
+https://www.javatpoint.com/software-engineering-waterfall-model
 
 Q2: Describe the Agile Model.
 
